@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/ADDER_SUBTRACTOR.vhd" \
+"../../../../ALU.srcs/sources_1/new/DECISION.vhd" \
+"../../../../ALU.srcs/sources_1/new/DIVIDER.vhd" \
+"../../../../ALU.srcs/sources_1/new/ENCODER.vhd" \
+"../../../../ALU.srcs/sources_1/new/Edge_Detector.vhd" \
+"../../../../ALU.srcs/sources_1/new/MULTIPLIER.vhd" \
+"../../../../ALU.srcs/sources_1/new/SEGMENT_7.vhd" \
+"../../../../ALU.srcs/sources_1/new/TOP_MODULE.vhd" \
+
+# Do not sort compile order
+nosort
